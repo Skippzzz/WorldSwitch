@@ -148,7 +148,7 @@ MonoBehaviour:
   checkRadius: 0.2
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 512
   fallForce: 1.2
 --- !u!1 &8496350094809819559
 GameObject:
