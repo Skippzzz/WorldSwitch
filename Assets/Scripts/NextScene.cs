@@ -16,6 +16,10 @@ public class NextScene : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(nextSceneToLoad);
+        if (collision.gameObject.tag == "Player")
+        {
+            SceneManager.LoadScene(nextSceneToLoad);
+        }
+        
     }
 }
