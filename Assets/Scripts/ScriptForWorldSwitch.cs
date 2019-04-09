@@ -31,7 +31,7 @@ public class ScriptForWorldSwitch : MonoBehaviour
     void Update()
     {
         //Check if you puss the button R
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
             //Checks if you are in the "real" world  
             if (isReal == true) {
