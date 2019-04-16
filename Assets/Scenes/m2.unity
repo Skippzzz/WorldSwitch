@@ -543,6 +543,11 @@ PrefabInstance:
       propertyPath: FakeWorld
       value: 
       objectReference: {fileID: 1007155049}
+    - target: {fileID: 2158745956461435818, guid: 56af48c9648d8c64d98b7d614543e54f,
+        type: 3}
+      propertyPath: worldChange
+      value: 
+      objectReference: {fileID: 8300000, guid: d46cc6b66f4fe2c49856870d1f1e7177, type: 3}
     - target: {fileID: 868726457474383844, guid: 56af48c9648d8c64d98b7d614543e54f,
         type: 3}
       propertyPath: objectToFollow
@@ -672,6 +677,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 834934800187782917, guid: 2dc86e85b42c5d340a67e0e58dcea1af,
+        type: 3}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 148c1f19262745e4eb796bd2f208bdf5, type: 3}
+    - target: {fileID: 834934800187782917, guid: 2dc86e85b42c5d340a67e0e58dcea1af,
+        type: 3}
+      propertyPath: hazardCollision
+      value: 
+      objectReference: {fileID: 8300000, guid: 978286d387e5cf943bc954de9c7c46ed, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2dc86e85b42c5d340a67e0e58dcea1af, type: 3}
 --- !u!1001 &1647569152
@@ -86621,6 +86636,11 @@ PrefabInstance:
       propertyPath: m_Tiles.Array.data[16].second.m_ColliderType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4561294444756783441, guid: a14c1022121c6ea429e30a51fc1a1d39,
+        type: 3}
+      propertyPath: win
+      value: 
+      objectReference: {fileID: 8300000, guid: a37b1237728b8ae4e8a09ef13255bf14, type: 3}
     - target: {fileID: 397095576669721001, guid: a14c1022121c6ea429e30a51fc1a1d39,
         type: 3}
       propertyPath: m_Tiles.Array.size
