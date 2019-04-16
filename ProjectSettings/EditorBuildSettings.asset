@@ -18,9 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/m1.unity
     guid: b0b62c4790e1e6642b0f9c90ecb7b2c2
   - enabled: 1
+    path: Assets/Scenes/m3.unity
+    guid: f192dffe2e496b94881ee71525d20ed1
+  - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: c92aa68bf4966ec468bfb6744af48b53
-  - enabled: 0
-    path: Assets/Scenes/Agata.unity
-    guid: c314b3191eebf4073b138225b256e5d1
   m_configObjects: {}
