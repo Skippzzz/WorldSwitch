@@ -17,6 +17,10 @@ public class ScriptForWorldSwitch : MonoBehaviour
     //for the "fake" world
     public GameObject FakeWorld;
 
+    //SoundTest part
+    public AudioClip worldChange;
+    //--------------
+
     // Checks wheter you are in the "real" world or not
     bool isReal;
 
@@ -41,6 +45,9 @@ public class ScriptForWorldSwitch : MonoBehaviour
                 FakeWorld.SetActive(true);
                 //sets boolean to show "fake" world
                 isReal = false;
+                //SoundTest part
+                SoundManager.instance.PlaySingle(worldChange);
+                //--------------
             }
             //if you are not in the "real" world 
             //But presses R
@@ -52,6 +59,9 @@ public class ScriptForWorldSwitch : MonoBehaviour
                 FakeWorld.SetActive(false);
                 //Sets boolean to show "fake" world
                 isReal = true;
+                //SoundTest part
+                SoundManager.instance.PlaySingle(worldChange);
+                //--------------
             }
         }
         

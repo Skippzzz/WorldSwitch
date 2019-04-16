@@ -5,6 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class PlayerScript : MonoBehaviour
 {
+
+    //SoundTest part
+    public AudioClip jumpSound;
+    public AudioClip hazardCollision;
+    //--------------
+   
+
+    //
     public float speed = 5f;
     private float moveInput;
     public Vector2 jumpHeight = new Vector2(0, 5.5f);
@@ -42,6 +50,10 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
             rb.AddForce(jumpHeight, ForceMode2D.Impulse);
+
+            //SoundTest part
+            SoundManager.instance.PlaySingle(jumpSound);
+            //--------------
         }
 
         //Apply extra gravity to fall
@@ -66,6 +78,9 @@ public class PlayerScript : MonoBehaviour
         if (collision.gameObject.tag == "Hazard")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            //SoundTest part
+            SoundManager.instance.PlaySingle(hazardCollision);
+            //--------------
         }
     }
 }
