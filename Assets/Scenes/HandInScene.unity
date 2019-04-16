@@ -72520,6 +72520,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2158745956461435818, guid: 56af48c9648d8c64d98b7d614543e54f,
+        type: 3}
+      propertyPath: RealWorld
+      value: 
+      objectReference: {fileID: 278133449}
+    - target: {fileID: 2158745956461435818, guid: 56af48c9648d8c64d98b7d614543e54f,
+        type: 3}
+      propertyPath: FakeWorld
+      value: 
+      objectReference: {fileID: 1295698244}
+    - target: {fileID: 5490711793244322469, guid: 56af48c9648d8c64d98b7d614543e54f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8791092977106092208, guid: 56af48c9648d8c64d98b7d614543e54f,
         type: 3}
       propertyPath: orthographic size
@@ -72529,7 +72544,7 @@ PrefabInstance:
         type: 3}
       propertyPath: objectToFollow
       value: 
-      objectReference: {fileID: 1554787808}
+      objectReference: {fileID: 0}
     - target: {fileID: 8791092977106092209, guid: 56af48c9648d8c64d98b7d614543e54f,
         type: 3}
       propertyPath: RealWorld
@@ -72799,12 +72814,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2dc86e85b42c5d340a67e0e58dcea1af, type: 3}
---- !u!1 &1554787808 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8496350093716693664, guid: 2dc86e85b42c5d340a67e0e58dcea1af,
-    type: 3}
-  m_PrefabInstance: {fileID: 1554787807}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1621027980
 GameObject:
   m_ObjectHideFlags: 0
@@ -142609,7 +142618,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1936961853
 GameObject:
