@@ -174,6 +174,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28a92b6dc9793804e9e3915af5a5546f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpSound: {fileID: 8300000, guid: 148c1f19262745e4eb796bd2f208bdf5, type: 3}
+  hazardCollision: {fileID: 8300000, guid: 978286d387e5cf943bc954de9c7c46ed, type: 3}
   speed: 8
   jumpHeight: {x: 0, y: 8}
   groundCheck: {fileID: 5207772298591865474}

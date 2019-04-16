@@ -117,6 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RealWorld: {fileID: 0}
   FakeWorld: {fileID: 0}
+  worldChange: {fileID: 8300000, guid: d46cc6b66f4fe2c49856870d1f1e7177, type: 3}
 --- !u!222 &7494764245024618503
 CanvasRenderer:
   m_ObjectHideFlags: 0
