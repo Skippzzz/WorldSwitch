@@ -26,11 +26,16 @@ public class PlayerScript : MonoBehaviour
     public float checkRadius = 0.2f;
     public LayerMask whatIsGround;
 
-    public float fallForce = 1.2f;  
+    public float fallForce = 1.2f;
+
+    static public bool isCollidingX;
+    static public bool isCollidingY;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        isCollidingX = false;
+        isCollidingY = false;
     }
 
     void FixedUpdate()
@@ -82,5 +87,29 @@ public class PlayerScript : MonoBehaviour
             SoundManager.instance.PlaySingle(hazardCollision);
             //--------------
         }
+
+        if (collision.gameObject.tag == "CameraBorderX")
+        {
+            isCollidingX = true;
+        }
+
+        if (collision.gameObject.tag == "CameraBorderY")
+        {
+            isCollidingY = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "CameraBorderX")
+        {
+            isCollidingX = false;
+        }
+
+        if (collision.gameObject.tag == "CameraBorderY")
+        {
+            isCollidingY = false;
+        }
     }
 }
+

@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 using UnityEngine;
+=======
+﻿using UnityEngine;
+>>>>>>> 368b439dbc844e2352732accc3e87dc1838d1a27
 using System.Collections;
 
 public class SoundManager : MonoBehaviour
@@ -10,8 +14,11 @@ public class SoundManager : MonoBehaviour
     public AudioSource efxSource;                   //Drag a reference to the audio source which will play the sound effects.
     public AudioSource musicSource;                 //Drag a reference to the audio source which will play the music.
     public static SoundManager instance = null;     //Allows other scripts to call functions from SoundManager.             
+<<<<<<< HEAD
     public float lowPitchRange = .95f;              //The lowest a sound effect will be randomly pitched.
     public float highPitchRange = 1.05f;            //The highest a sound effect will be randomly pitched.
+=======
+>>>>>>> 368b439dbc844e2352732accc3e87dc1838d1a27
 
 
     void Awake()
@@ -39,6 +46,7 @@ public class SoundManager : MonoBehaviour
         //Play the clip.
         efxSource.Play();
     }
+<<<<<<< HEAD
 
 
     //RandomizeSfx chooses randomly between various audio clips and slightly changes their pitch.
@@ -60,3 +68,6 @@ public class SoundManager : MonoBehaviour
         efxSource.Play();
     }
 }
+=======
+}
+>>>>>>> 368b439dbc844e2352732accc3e87dc1838d1a27
