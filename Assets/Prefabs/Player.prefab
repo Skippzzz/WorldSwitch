@@ -177,7 +177,7 @@ MonoBehaviour:
   speed: 8
   jumpHeight: {x: 0, y: 8}
   groundCheck: {fileID: 5207772298591865474}
-  checkRadius: 0.2
+  checkRadius: 0.5
   whatIsGround:
     serializedVersion: 2
     m_Bits: 512
