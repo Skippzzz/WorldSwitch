@@ -6,11 +6,16 @@ using UnityEngine.SceneManagement;
 public class NextScene : MonoBehaviour 
 {
     private int nextSceneToLoad;
+    //SoundTest part
+    public AudioClip win;
+    //--------------
 
-// Start is called before the first frame update
+
+    // Start is called before the first frame update
     void Start()
     {
         nextSceneToLoad = SceneManager.GetActiveScene().buildIndex + 1;
+      
     }
 
     // Update is called once per frame
@@ -19,7 +24,10 @@ public class NextScene : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             SceneManager.LoadScene(nextSceneToLoad);
+            //SoundTest part
+            SoundManager.instance.PlaySingle(win);
+            //--------------
         }
-        
+
     }
 }
