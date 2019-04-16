@@ -183,7 +183,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 512
-  fallForce: 1.2
+  fallForce: 1.5
 --- !u!95 &2157861815302562574
 Animator:
   serializedVersion: 3
