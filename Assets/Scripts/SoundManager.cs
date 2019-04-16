@@ -7,7 +7,6 @@ public class SoundManager : MonoBehaviour
     public AudioSource musicSource;                 //Drag a reference to the audio source which will play the music.
     public static SoundManager instance = null;     //Allows other scripts to call functions from SoundManager.             
 
-
     void Awake()
     {
         //Check if there is already an instance of SoundManager
